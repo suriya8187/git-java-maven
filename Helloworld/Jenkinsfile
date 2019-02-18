@@ -6,3 +6,4 @@ stage('compile package'){
 def mvnHome=tool name: 'AWSMaven', type: 'maven'
 sh 'mvn package'
 }
+}
