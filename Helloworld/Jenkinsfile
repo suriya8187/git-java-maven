@@ -1,6 +1,6 @@
 node {
 stage('SCM checkout'){
-git 'https://github.com/suriya8187/git-java-maven/new/master/Helloworld'
+git 'https://github.com/suriya8187/git-java-maven'
 }
 stage('compile package'){
 def mvnHome=tool name: 'AWSMaven', type: 'maven'
